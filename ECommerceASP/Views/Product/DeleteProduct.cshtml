@@ -1,0 +1,10 @@
+﻿@model Product
+
+<h2>Confirmer la suppression</h2>
+
+<p>Êtes-vous sûr de vouloir supprimer le produit <strong>@Model.Name</strong> (Catégorie : @Model.Category?.name) ?</p>
+
+<form asp-action="DeleteProductConfirmed" asp-controller="Product" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Supprimer</button>
+    <a class="btn btn-secondary" asp-controller="Product" asp-action="ListeProduct">Annuler</a>
+</form>

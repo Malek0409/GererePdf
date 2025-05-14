@@ -1,0 +1,33 @@
+﻿@model Product
+
+<h2>Modifier un produit</h2>
+
+<form asp-action="EditProduct" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name">Nom du produit</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price">Prix du produit</label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryId">Catégorie</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control"></select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="mt-1">
+        <button type="submit" class="btn btn-primary">Enregistrer les modifications</button>
+    </div>
+</form>
+
+<div class="mt-3">
+    <a class="text-body" asp-controller="Product" asp-action="ListeProduct">Retour à la liste des produits</a>
+</div>

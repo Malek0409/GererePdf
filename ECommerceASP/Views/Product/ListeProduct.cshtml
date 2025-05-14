@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Product>
+
+<h2>Liste des produits</h2>
+
+<table class="table">
+    <thead>
+        <tr class="table-dark">
+            <th>Nom de la produit</th>
+            <th>Prix de la produit</th>
+            <th>Le type de la produit</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price €</td>
+                <td>@product.Category?.name</td>
+                <td>
+                    <div class="d-flex gap-2">
+                        <a class="btn btn-warning" asp-controller="Product" asp-action="EditProduct" asp-route-id="@product.Id">Modifier</a>
+                        <a class="btn btn-danger" asp-controller="Product" asp-action="DeleteProduct" asp-route-id="@product.Id">Supprimer </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a class="btn btn-primary" asp-controller="Product" asp-action="CreateProduct">Ajouter un produit</a>
+</div>
+
+<div class="mt-2">
+    <a class="btn btn-primary" asp-controller="Product" asp-action="GeneratePdf">Générer un Document</a>
+</div>
+
+

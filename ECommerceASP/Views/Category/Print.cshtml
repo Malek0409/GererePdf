@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Category>
+
+<h2>Liste des catégories (PDF)</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nom de la catégorie</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            foreach (var category in Model)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@category.name</td>
+                </tr>
+                i++;
+            }
+        }
+    </tbody>
+</table>

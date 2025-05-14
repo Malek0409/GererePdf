@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Category>
+
+<h2>Liste des catégories</h2>
+
+<table class="table">
+    <thead>
+        <tr class ="table-dark">
+            <th>Nom de la catégorie</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.name</td>
+                <td>
+                    <div class="d-flex gap-2">
+                        <a class="btn btn-warning" asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id">Modifier</a>
+                        <a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Supprimer </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a class="btn btn-primary" asp-controller="Category" asp-action="Create">Créer une catégorie</a>
+</div>
+
+<div class="mt-2">
+    <a class="btn btn-primary" asp-controller="Category" asp-action="GeneratePdf">Génerer un Document</a>
+</div>
+
+
