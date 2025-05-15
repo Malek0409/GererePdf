@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ECommerceASP.6gcatfkxge.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\Upload\\ProductsData.csv",
+      "PackagePath": "staticwebassets\\Upload\\ProductsData.csv"
+    },
+    {
       "Id": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

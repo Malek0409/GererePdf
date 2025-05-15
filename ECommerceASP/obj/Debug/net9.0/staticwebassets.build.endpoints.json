@@ -301,6 +301,304 @@
       ]
     },
     {
+      "Route": "Upload/ProductsData.csv",
+      "AssetFile": "Upload/ProductsData.csv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004901960784"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.csv",
+      "AssetFile": "Upload/ProductsData.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.csv.gz",
+      "AssetFile": "Upload/ProductsData.csv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.iw4kp06w3h.csv",
+      "AssetFile": "Upload/ProductsData.csv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004901960784"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw4kp06w3h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/ProductsData.csv"
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.iw4kp06w3h.csv",
+      "AssetFile": "Upload/ProductsData.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw4kp06w3h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/ProductsData.csv"
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.iw4kp06w3h.csv.gz",
+      "AssetFile": "Upload/ProductsData.csv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw4kp06w3h"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/ProductsData.csv.gz"
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [

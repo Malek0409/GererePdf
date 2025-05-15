@@ -1,4 +1,5 @@
 using ECommerceASP.Data;
+using ECommerceASP.Services.ImportCSVProduct;
 using Microsoft.EntityFrameworkCore;
 using QuestPDF.Infrastructure;
 
@@ -14,8 +15,10 @@ namespace ECommerceASP
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
-           
+
             builder.Services.AddControllersWithViews();
+            builder.Services.AddTransient<PdataProduct>();
+
 
             var app = builder.Build();
 

@@ -16,4 +16,8 @@
     <PackageReference Include="QuestPdf" Version="2025.4.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Upload\" />
+  </ItemGroup>
+
 </Project>

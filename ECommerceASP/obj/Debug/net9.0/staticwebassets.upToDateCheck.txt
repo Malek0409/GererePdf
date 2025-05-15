@@ -30,6 +30,7 @@ C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\lib\bootstrap\dist\css\
 C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\Upload\ProductsData.csv
 C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\Malek\Desktop\ECommerceASP\ECommerceASP\wwwroot\css\site.css
@@ -125,3 +126,4 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Upload\ProductsData.csv

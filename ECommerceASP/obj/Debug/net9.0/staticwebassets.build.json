@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IVLdWPx48fMyg5SbrM/DlTcOn/j6RZSOiIxuetq6tdk=",
+  "Hash": "PltpIjZQYWQhDbh1sNMOP55o3Ipf8jie3Z6+lCuuevI=",
   "Source": "ECommerceASP",
   "BasePath": "_content/ECommerceASP",
   "Mode": "Default",
@@ -729,6 +729,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\mvd8q4dk71-iw4kp06w3h.gz",
+      "SourceId": "ECommerceASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerceASP",
+      "RelativePath": "Upload/ProductsData#[.{fingerprint=iw4kp06w3h}]?.csv.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\Upload\\ProductsData.csv",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "t3g8eghxpz",
+      "Integrity": "d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\Upload\\ProductsData.csv"
     },
     {
       "Identity": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\n7koaccn7x-rzd6atqjts.gz",
@@ -2766,6 +2787,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\Upload\\ProductsData.csv",
+      "SourceId": "ECommerceASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\",
+      "BasePath": "_content/ECommerceASP",
+      "RelativePath": "Upload/ProductsData#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iw4kp06w3h",
+      "Integrity": "0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\ProductsData.csv"
     }
   ],
   "Endpoints": [
@@ -22218,6 +22260,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.csv",
+      "AssetFile": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\mvd8q4dk71-iw4kp06w3h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004901960784"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.csv",
+      "AssetFile": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\Upload\\ProductsData.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.csv.gz",
+      "AssetFile": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\mvd8q4dk71-iw4kp06w3h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.iw4kp06w3h.csv",
+      "AssetFile": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\mvd8q4dk71-iw4kp06w3h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004901960784"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw4kp06w3h"
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/ProductsData.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.iw4kp06w3h.csv",
+      "AssetFile": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\wwwroot\\Upload\\ProductsData.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw4kp06w3h"
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/ProductsData.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0m64A5yRvsoMYAciVjZ3ufEl5z1rU5hiapoHcTsaAQg="
+        }
+      ]
+    },
+    {
+      "Route": "Upload/ProductsData.iw4kp06w3h.csv.gz",
+      "AssetFile": "C:\\Users\\Malek\\Desktop\\ECommerceASP\\ECommerceASP\\obj\\Debug\\net9.0\\compressed\\mvd8q4dk71-iw4kp06w3h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 15:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw4kp06w3h"
+        },
+        {
+          "Name": "label",
+          "Value": "Upload/ProductsData.csv.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d57dL0FH0f+x7eFQxtjhPvp20kVPPBxbsoSDFemQAAQ="
         }
       ]
     }
